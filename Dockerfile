@@ -56,6 +56,3 @@ ENV DOCKER_ENV=true
 EXPOSE 8080
 
 ENTRYPOINT ["/bin/bash", "-c", ". ./Docker/scripts/deploy_database.sh && npm run start:prod" ]
-Depois de colar este conteúdo e salvar ("Commit changes") no GitHub, a Railway irá automaticamente iniciar um novo deploy. Desta vez, ele deve passar da etapa de instalação sem erros.
-
-</lasy-write></lasy-write></lasy-write>
